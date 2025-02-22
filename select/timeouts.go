@@ -13,6 +13,8 @@ func main() {
 		ch <- "result"
 	}()
 
+	//each case in select must be a channel send or recieve, it block until one of the cases proceed, if multiple cases are ready
+	// it chooses one at random, using the default statement it makes the select statement non-blocking
 	select {
 	case res := <-ch:
 		fmt.Println(res)
