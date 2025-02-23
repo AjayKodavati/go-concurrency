@@ -64,19 +64,20 @@
            - ✅ Memory efficient—no need to store all results in memory.
 
 ## Pub-Sub Pattern
-    - The Pub-sub (Publish - subscribe) pattern in a messaging pattern where publishers send messsages to multiple subscribers i.e broad casts messages to multiple subscribers. pub-sub communication happens with the help of buffered channel, where subscribers listens to the channels for any updates.
+   - The Pub-sub (Publish - subscribe) pattern in a messaging pattern where publishers send messsages to multiple sbscribers
+      i.e broad casts messages to multiple subscribers. pub-sub communication happens with the help of buffered channel, where subscribers listens to the channels for any updates.
 
-      - How it works
-        - Publisher send messages to channel.
-        - Subscribers listen to that channel and process messages.
-        - Multiple subsribers can recieve the same message simultaneously.
-      
-      - Key Benefits
-        - ✅ Decouples publishers and subscribers (flexible architecture).
-        - ✅ Scalable (multiple subscribers can listen to the same topic).
-        - ✅ Supports dynamic subscription/unsubscription (clients can join/leave at any time).
+        - How it works
+          - Publisher send messages to channel.
+          - Subscribers listen to that channel and process messages.
+          - Multiple subsribers can recieve the same message simultaneously.
+        
+        - Key Benefits
+          - ✅ Decouples publishers and subscribers (flexible architecture).
+          - ✅ Scalable (multiple subscribers can listen to the same topic).
+          - ✅ Supports dynamic subscription/unsubscription (clients can join/leave at any time).
 
-      - Key Benefits
-        - ✅ Decouples publishers and subscribers (flexible architecture).
-        - ✅ Scalable (multiple subscribers can listen to the same topic).
-        - ✅ Supports dynamic subscription/unsubscription (clients can join/leave at any time).
+        - Key Benefits
+          - ✅ Decouples publishers and subscribers (flexible architecture).
+          - ✅ Scalable (multiple subscribers can listen to the same topic).
+          - ✅ Supports dynamic subscription/unsubscription (clients can join/leave at any time).
